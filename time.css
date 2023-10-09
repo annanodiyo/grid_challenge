@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik";
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+
+}
+.main{
+    display: grid;
+    grid-template-areas:
+    "report work play study"
+    "report exercise social self";
+    width: 80vw;
+    height: 80vh;
+    background-color:  hsl(226, 43%, 10%);
+    padding: 100px;
+    gap: 20px;
+}
+.report{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 8px;
+    grid-area: report;
+    padding: 20px;
+
+}
+.report>img{
+    width: 80px;
+    border-radius: 50%;
+    border: solid 2px white;
+
+}
+.card{
+    background-color: hsl(235, 46%, 20%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.daily{
+    /* display: flex; */
+    grid-area: daily;
+    padding:30px;
+}
+.work{
+    grid-area: work;
+    /* border-top-width: 70px; */
+}
+.wrk{
+    /* background-image:image); */
+}
+.play{
+    grid-area: play;
+}
+.study{
+    grid-area: study;
+}
+.exercise{
+    grid-area:exercise;
+}
+.social{
+    grid-area: social;
+}
+.self{
+    grid-area: self;
+}
